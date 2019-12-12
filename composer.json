@@ -9,7 +9,7 @@
     },
     "autoload": {
       "psr-4": {
-        "joyride\\dashboard\\": "src"
+        "Joyride\\Dashboard\\": "src"
       }
     },
     "extra": {
