@@ -1,5 +1,5 @@
 {
-    "name": "joyride/demo",
+    "name": "joyride/dasahboard",
     "description": "Demo packages",
     "type": "library",
     "require": {
