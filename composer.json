@@ -1,0 +1,24 @@
+{
+    "name": "joyride/demo",
+    "description": "Demo packages",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^6.7",
+        "php": "^7.2",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "Joyride\\Dashboard": "src"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Joyride\\Dashboard\\Providers\\DemoServiceProvider"
+        ]
+      }
+    }
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
