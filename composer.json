@@ -18,7 +18,7 @@
           "Joyride\\Dashboard\\Providers\\DemoServiceProvider"
         ]
       }
-    }
+    },
     "license": "MIT",
     "minimum-stability": "dev"
 }
