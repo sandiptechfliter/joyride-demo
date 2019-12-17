@@ -2,6 +2,7 @@
 
 namespace Joyride\Dashboard\Providers;
 
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 
 class DemoServiceProvider extends ServiceProvider
@@ -23,6 +24,6 @@ class DemoServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        info("Provider Packages.");
+        Log::stack(array('stack'))->log('info', 'Custom provider is boot successfully.');
     }
 }
